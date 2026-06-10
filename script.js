@@ -1,1 +1,32 @@
 console.log("Hello Welocome To My Daily Grid Cafe!")
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+
+    
+
+<img src="Weldome to the daily grid.jpg"
+
+ <p> ham & cheese sandwich - $6; </p> <button onCLICK="start()">buy</button>
+<p> blue muffin - $5;</p> <button onCLICK="start()">buy</button>
+<p> chocolate muffin - $5;</p> <button onCLICK="start()">buy</button>
+<p> egg sandwich - $8;<p> <button onCLICK="start()">buy</button>
+<p> chocolate cookie - $3;</p> <button onCLICK="start()">buy</button>
+
+
+Section of Drinks
+<p> cappuccino - $4;</p> <button onCLICK="start()">buy</button>
+<p>flat white - $4;</p> <button onCLICK="start()">buy</button>
+<p> hot chocolate - $4;</p> <button onCLICK="start()">buy</button>
+<p> water - $3</p> <button onCLICK="start()">buy</button>
+<p> orange juice - $4</p> <button onCLICK="start()"?>buy</button> 
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
