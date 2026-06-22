@@ -33,7 +33,7 @@ function showList() {
     OUTPUT.innerHTML +="<br>Hot chocolate $4</br>"
     OUTPUT.innerHTML +="<br>Water $3</br>"
     OUTPUT.innerHTML +="<br>Orange juice $4</br>"
-    OUTPUT.innerHTML +="strawberry milk shake$5</br>"
+    OUTPUT.innerHTML +="<br>strawberry milk shake$5</br>"
     
 
 
