@@ -24,7 +24,7 @@ function addItem() {
 function showList() {
  OUTPUT.innerHTML += "<br>These are the items on your shopping list:<br>";
      OUTPUT.innerHTML +="<br>Egg sandwich $8</br>"
-     OUTPUT.innerHTML +="<br> chocolate cookie"
+     OUTPUT.innerHTML +="<br> chocolate co"
      OUTPUT.innerHTML +=""
      OUTPUT.innerHTML +=""
     OUTPUT.innerHTML += "<br>Chocolate cookie $5</br>"
