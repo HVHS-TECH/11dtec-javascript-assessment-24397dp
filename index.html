@@ -1,64 +1,65 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
-
-
-    
-
-<img src="Weldome to the daily grid.jpg"
-SECTION OF BREAKFAST 
- <p> ham & cheese sandwich  </p> <button onCLICK="start()"></button>
-<p> blue muffin </p> <button onCLICK="start()"></button>
-<p> chocolate muffin </p> <button onCLICK="start()"></button>
-<p> egg sandwich <p> <button onCLICK="start()"></button>
-<p> chocolate cookie </p> <button onCLICK="start()"></button>
-
-
-SECTION OF DRINKS
-<p> cappuccino </p> <button onCLICK="start()"></button>
-<p>flat white </p> <button onCLICK="start()"></button>
-<p> hot chocolate </p> <button onCLICK="start()"></button>
-<p> water </p> <button onCLICK="start()"></button>
-<p> orange juice </p> <button onCLICK="start()"></button>
-<p> straberry milk shake </p> <button onCLICK=" start()"></button>
-<script src="script.js"></script>
-</body>
-</html>
-
-
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" href="script.js">
-  <link rel="icon" type="image/png" href="../assets/dtec_favicon.png">
+    <title>Daily Grid Cafe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body onload="start()">
 
+    <h1>Welcome To The Daily Grid Cafe!</h1>
 
+    <img src="Weldome to the daily grid.jpg" alt="Daily Grid Cafe" width="300">
 
-  <input id="itemInput" type="text" placeholder="Enter an item">
+    <h2>Breakfast</h2>
 
-  <button onclick="addItem()">Add Item</button>
+    <p>Ham & Cheese Sandwich - $8</p>
+    <button onclick="addItem('Ham & Cheese Sandwich')">Add</button>
 
-  <button onclick="showList()">Show Shopping List</button>
+    <p>Blue Muffin - $5</p>
+    <button onclick="addItem('Blue Muffin')">Add</button>
 
-  <br><br>
+    <p>Chocolate Muffin - $5</p>
+    <button onclick="addItem('Chocolate Muffin')">Add</button>
 
-  <div id="spaceForJavaScriptOutput">
-    The output of your script will go here.
-  </div>
+    <p>Egg Sandwich - $8</p>
+    <button onclick="addItem('Egg Sandwich')">Add</button>
 
-  <script src="script.js"></script>
+    <p>Chocolate Cookie - $5</p>
+    <button onclick="addItem('Chocolate Cookie')">Add</button>
+
+    <h2>Drinks</h2>
+
+    <p>Cappuccino - $4</p>
+    <button onclick="addItem('Cappuccino')">Add</button>
+
+    <p>Flat White - $4</p>
+    <button onclick="addItem('Flat White')">Add</button>
+
+    <p>Hot Chocolate - $4</p>
+    <button onclick="addItem('Hot Chocolate')">Add</button>
+
+    <p>Water - $3</p>
+    <button onclick="addItem('Water')">Add</button>
+
+    <p>Orange Juice - $4</p>
+    <button onclick="addItem('Orange Juice')">Add</button>
+
+    <p>Strawberry Milkshake - $5</p>
+    <button onclick="addItem('Strawberry Milkshake')">Add</button>
+
+    <br><br>
+
+    <button onclick="showList()">Show Order</button>
+
+    <br><br>
+
+    <div id="spaceForJavaScriptOutput">
+        Your order will appear here.
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
-
 </html>
-
