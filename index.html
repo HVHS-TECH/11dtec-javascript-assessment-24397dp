@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Daily Grid Cafe</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            background-color: rgb(66, 247, 253);
+            font-family: Arial, sans-serif;
+        }
+
+        button {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body onload="start()">
@@ -52,6 +64,8 @@
     <br><br>
 
     <button onclick="showList()">Show Order</button>
+    <button onclick="clearOrder()">Clear Order</button>
+    <button onclick="pay()">Pay</button>
 
     <br><br>
 
@@ -60,13 +74,6 @@
     </div>
 
     <script src="script.js"></script>
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-body {
-  background-color: rgb(66, 247, 253);
-}
-</style>
-</head>
-<body>
+
+</body>
+</html>
