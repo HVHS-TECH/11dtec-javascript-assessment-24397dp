@@ -7,12 +7,8 @@ let total = 0;
 function addItem(item, price) {
     shoppingList.push(item);
     total += Number(price);
-
     OUTPUT.innerHTML += item + " added to your order.<br>";
 }
-
- <p> shoppingList.push(item) Ham & Cheese Sandwich - $8</p>
-    <button onclick="addItem('Ham & Cheese Sandwich')">Add</button>
  
 function showList() {
     OUTPUT.innerHTML = "<b>Your Order:</b><br>";
