@@ -30,7 +30,7 @@ function clearOrder() {
     OUTPUT.innerHTML = "Your order has been cleared.";
 }
 
-function pay("ham & cheese sandwich") {
+function pay() {
     if (shoppingList.length === 0) {
         OUTPUT.innerHTML = "Your order is empty.";
         return;
