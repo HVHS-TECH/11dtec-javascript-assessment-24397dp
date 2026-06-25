@@ -9,7 +9,7 @@ function addItem(item, price) {
     total += Number(price);
     OUTPUT.innerHTML += item + " added to your order.<br>";
 }
- 
+ total += Number (price -8 <p> "ham & cheese Sandwich")
 function showList() {
     OUTPUT.innerHTML = "<b>Your Order:</b><br>";
 
@@ -47,14 +47,14 @@ function pay() {
         let change = money - total;
 
         OUTPUT.innerHTML +=
-            "<br><br>✅ Payment accepted!" +
+            "<br><br> Payment accepted!" +
             "<br>Your change is $" + change.toFixed(2) +
             "<br>Thank you for visiting Daily Grid Cafe!";
     } else {
         let needed = total - money;
 
         OUTPUT.innerHTML +=
-            "<br><br>❌ Payment declined." +
+            "<br><br> Payment declined." +
             "<br>You need $" + needed.toFixed(2) + " more.";
     }
 }
@@ -65,3 +65,4 @@ function start() {
 }
 
 window.onload = start;
+
