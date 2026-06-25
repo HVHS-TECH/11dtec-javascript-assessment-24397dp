@@ -6,7 +6,7 @@ let total = 0;
 
 function addItem(item, price) {
     shoppingList.push(item);
-    total = total + price;
+    total += Number(price);
 
     OUTPUT.innerHTML += item + " added to your order.<br>";
 }
@@ -21,7 +21,7 @@ function showList() {
             OUTPUT.innerHTML += shoppingList[i] + "<br>";
         }
 
-        OUTPUT.innerHTML += "<br><b>Total: $" + total + "</b>";
+        OUTPUT.innerHTML += "<br><b>Total: $" + total.toFixed(2) + "</b>";
     }
 }
 
@@ -37,21 +37,26 @@ function pay() {
         return;
     }
 
-    let money = Number(prompt("How much money do you have?"));
+    let money = parseFloat(prompt("How much money do you have?"));
+
+    if (isNaN(money)) {
+        OUTPUT.innerHTML = "Please enter a valid amount of money.";
+        return;
+    }
 
     if (money >= total) {
         let change = money - total;
 
         OUTPUT.innerHTML +=
-            "<br><br>Payment accepted!<br>" +
-            "Your change is $" + change +
+            "<br><br>✅ Payment accepted!" +
+            "<br>Your change is $" + change.toFixed(2) +
             "<br>Thank you for visiting Daily Grid Cafe!";
     } else {
         let needed = total - money;
 
         OUTPUT.innerHTML +=
-            "<br><br>Payment declined.<br>" +
-            "You need $" + needed + " more.";
+            "<br><br>❌ Payment declined." +
+            "<br>You need $" + needed.toFixed(2) + " more.";
     }
 }
 
@@ -59,3 +64,5 @@ function start() {
     OUTPUT = document.getElementById("spaceForJavaScriptOutput");
     OUTPUT.innerHTML = "Welcome to Daily Grid Cafe!";
 }
+
+window.onload = start;
