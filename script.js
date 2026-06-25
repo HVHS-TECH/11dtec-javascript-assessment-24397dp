@@ -10,7 +10,7 @@ function addItem(item, price) {
 
     OUTPUT.innerHTML += item + " added to your order.<br>";
 }
-
+ 
 function showList() {
     OUTPUT.innerHTML = "<b>Your Order:</b><br>";
 
