@@ -8,6 +8,7 @@ function addItem(item, price) {
     shoppingList.push(item);
     total += Number(price);
     OUTPUT.innerHTML += item + " added to your order.<br>";
+    
 }
  total += Number (price -8 <p> "ham & cheese Sandwich")
 function showList() {
