@@ -21,7 +21,7 @@ function showList() {
             OUTPUT.innerHTML += shoppingList[i] + "<br>";
         }
 
-        OUTPUT.innerHTML += "<br><b>Total: $" + total.toFixed(2) + "</b>";
+        OUTPUT.innerHTML += "<br><b>Total: $" + total(2) + "</b>";
     }
 }
 
