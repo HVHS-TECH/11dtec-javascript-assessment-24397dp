@@ -1,4 +1,6 @@
+alert("welcome to my daily grid")
 
+var userName = ("Daniel")
 
 
 
