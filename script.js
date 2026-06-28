@@ -5,7 +5,7 @@ alert("welcome to my daily grid")
 
 var userName = ("Daniel")
 var userName = prompt ("what is your name")
-
+var userName = ("24397dp")
 prompt("welcome to my program" + userName + "!/nplease enter your name")
 
 
