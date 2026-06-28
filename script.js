@@ -4,8 +4,7 @@
 alert("welcome to my daily grid")
 
 var userName = prompt ("what is your name")
-
-prompt("welcome to my program")
+prompt("what would you like in the dairy grid")
 prompt("!/nplease enter your name")
 
 
