@@ -1,7 +1,7 @@
 alert("welcome to my daily grid")
 
 var userName = ("Daniel")
-
+var userName = prompt ("what is your name")
 
 
 
