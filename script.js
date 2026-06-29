@@ -19,7 +19,7 @@ function displayMenu() {
         "1. ham & cheese sandwich" +
         "2. flat white" +
         "3. chocolate cookie" +
-    );
+    )
 }
 
 
