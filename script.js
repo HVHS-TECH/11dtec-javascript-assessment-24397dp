@@ -5,13 +5,12 @@ alert("welcome to my daily grid")
 
 var userName = prompt ("what is your name")
 prompt("what would you like in the dairy grid we got chocolate cookie we got flat white")
-prompt("you got chocolate cookie")
-prompt(" you added chcolate cookie + you added a flat white ")
 
+/***************************************
+ * functions ************************
+ */
 
-
-
-
+function 
 
 
 
