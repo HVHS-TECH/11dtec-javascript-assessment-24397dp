@@ -1,27 +1,20 @@
-/**************************************
- MAIN CODE
-**************************************/
+function start() {
+    alert("Welcome Unknown to my program!");
 
-alert("Welcome Unknown to my program!");
+    var userName = prompt("What is your name?");
 
-var userName = prompt("What is your name?");
+    displayMenu(userName);
+}
 
-displayMenu();
-
-/**************************************
- FUNCTIONS
-**************************************/
-
-function displayMenu() {
+function displayMenu(userName) {
     prompt(
         "Hello " + userName + "!\n\n" +
         "What do you want today?\n\n" +
-        "1. ham & cheese sandwich" +
-        "2. flat white" +
-        "3. chocolate cookie" +
-    )
+        "1. ham & cheese sandwich\n" +
+        "2. flat white\n" +
+        "3. chocolate cookie"
+    );
 }
-
 
 
 
