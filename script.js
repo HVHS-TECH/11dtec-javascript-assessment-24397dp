@@ -2,7 +2,7 @@
  MAIN CODE
 **************************************/
 
-alert("Welcome to my daily grid!!");
+alert("Welcome to my program!");
 
 var userName = prompt("What is your name?");
 
@@ -13,17 +13,32 @@ displayMenu();
 **************************************/
 
 function displayMenu() {
-    prompt(
+
+    var pick = prompt(
         "Hello " + userName + "!\n\n" +
         "What do you want today?\n\n" +
-        "1. hot chocolate\n" +
-        "2. ham and cheese snadwich\n" +
-        "3. flat white\n" +
-        "4. chocolate cookie"
+        "1. chocolate cookie\n" +
+        "2. flat white\n" +
+        "3. ham and cheese sandwich\n" +
+        "4. hot chocolate"
     );
-        alert("Thank you, " + userName + "! You ordered: " + pick + ".");
-}
 
+    if (pick == "1") {
+        alert("Thank you, " + userName + "! You ordered ham and cheese sandwich.");
+    }
+    else if (pick == "2") {
+        alert("Thank you, " + userName + "! You ordered hot chocolate.");
+    }
+    else if (pick == "3") {
+        alert("Thank you, " + userName + "! You ordered flat white.");
+    }
+    else if (pick == "4") {
+        alert("Thank you, " + userName + "! You ordered chocolate cookie.");
+    }
+    else {
+        alert("Sorry, that is not a valid choice.");
+    }
+}
 
 
 
