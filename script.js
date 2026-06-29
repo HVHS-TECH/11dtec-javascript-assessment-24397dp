@@ -2,7 +2,7 @@
  MAIN CODE
 **************************************/
 
-alert("Welcome Unknown to my program!");
+alert("Welcome to my daily grid!!");
 
 var userName = prompt("What is your name?");
 
