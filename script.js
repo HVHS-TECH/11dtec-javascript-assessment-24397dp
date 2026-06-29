@@ -16,12 +16,13 @@ function displayMenu() {
     prompt(
         "Hello " + userName + "!\n\n" +
         "What do you want today?\n\n" +
-        "1. ham & cheese sandwich" +
-        "2. flat white" +
-        "3. chocolate cookie" +
+        "1. hot chocolate\n" +
+        "2. ham and cheese snadwich\n" +
+        "3. flat white\n" +
+        "4. chocolate cookie"
     );
+        alert("Thank you, " + userName + "! You ordered: " + pick + ".");
 }
-
 
 
 
