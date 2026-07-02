@@ -41,7 +41,10 @@ function displayMenu() {
 }
 
     alert("you pick ham and cheese that will cost 10;")
-
+      alert("you pick chocolate cookie that will cost 12;")
+        alert("you pick ham and cheese that will cost 10;")
+          alert("you pick ham and cheese that will cost 10;")
+            alert("you pick ham and cheese that will cost 10;")
 
 
 
