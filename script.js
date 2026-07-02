@@ -17,9 +17,9 @@ function displayMenu() {
     var pick = prompt(
         "Hello " + userName + "!\n\n" +
         "What do you want today?\n\n" +
-        "1. chocolate cookie\n" +
+        "1. ham and cheese sandwich\n" +
         "2. flat white\n" +
-        "3. ham and cheese sandwich\n" +
+        "3. chocolate cookie\n" +
         "4. hot chocolate"
     );
 
