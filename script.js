@@ -23,11 +23,12 @@ function displayMenu() {
         "4. hot chocolate"
     );
 
+    
     if (pick == "1") {
         alert("Thank you, " + userName + "! You ordered ham and cheese sandwich This cost $8.");
     }
     else if (pick == "2") {
-        alert("Thank you, " + userName + "! You ordered hot chocolate.");
+        alert("Thank you, " + userName + "! You ordered hot chocolate This cost $4.");
     }
     else if (pick == "3") {
         alert("Thank you, " + userName + "! You ordered flat white.");
