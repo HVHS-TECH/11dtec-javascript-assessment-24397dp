@@ -40,6 +40,9 @@ function displayMenu() {
     }
 }
 
+    alert("you pick ham and cheese that will cost 10;")
+
+
 
 
 
