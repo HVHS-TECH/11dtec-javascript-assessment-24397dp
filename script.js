@@ -89,6 +89,7 @@ function displayMenu() {
 
 
 
+
 console.log("Hello Welcome To My Daily Grid Cafe!");
 
 let OUTPUT;
