@@ -23,7 +23,7 @@ function displayMenu() {
         "4. hot chocolate"
     );
 
-    
+
     if (pick == "1") {
         alert("Thank you, " + userName + "! You ordered ham and cheese sandwich This cost $8.");
     }
@@ -31,10 +31,10 @@ function displayMenu() {
         alert("Thank you, " + userName + "! You ordered hot chocolate This cost $4.");
     }
     else if (pick == "3") {
-        alert("Thank you, " + userName + "! You ordered flat white.");
+        alert("Thank you, " + userName + "! You ordered flat white This cost $4.");
     }
     else if (pick == "4") {
-        alert("Thank you, " + userName + "! You ordered chocolate cookie.");
+        alert("Thank you, " + userName + "! You ordered chocolate cookie This cost $5.");
     }
     else {
         alert("Sorry, that is not a valid choice.");
