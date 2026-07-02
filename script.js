@@ -24,7 +24,7 @@ function displayMenu() {
     );
 
     if (pick == "1") {
-        alert("Thank you, " + userName + "! You ordered ham and cheese sandwich./nThis cost $8.");
+        alert("Thank you, " + userName + "! You ordered ham and cheese sandwich This cost $8.");
     }
     else if (pick == "2") {
         alert("Thank you, " + userName + "! You ordered hot chocolate.");
@@ -39,21 +39,6 @@ function displayMenu() {
         alert("Sorry, that is not a valid choice.");
     }
 }
-
-if (pick == "1") {
-    alert("Thank you, "+ userName + "!\nYou got a Ham & Cheese Sandwich.\nThis costs $8.");
-}
-else if (pick == "2") {
-    alert("Thank you! This will cost $5.");
-}
-else if (pick == "3") {
-    alert("Thank you! This will cost $3.");
-}
-else {
-    alert("Invalid choice.");
-}
-
-
 
 
 
