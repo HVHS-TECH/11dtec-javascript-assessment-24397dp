@@ -24,7 +24,7 @@ function displayMenu() {
     );
 
 
-    if (pick == "2") {
+    if (pick == "1") {
         alert("Thank you, " + userName + "! You ordered ham and cheese sandwich This cost $8.");
     }
     else if (pick == "2") {
