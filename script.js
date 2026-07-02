@@ -40,11 +40,18 @@ function displayMenu() {
     }
 }
 
-    alert("you pick ham and cheese that will cost 10;")
-      alert("you pick chocolate cookie that will cost 12;")
-        alert("you pick ham and cheese that will cost 10;")
-          alert("you pick ham and cheese that will cost 10;")
-            alert("you pick ham and cheese that will cost 10;")
+if (pick == "1") {
+    alert("Thank you! This will cost $8.");
+}
+else if (pick == "2") {
+    alert("Thank you! This will cost $5.");
+}
+else if (pick == "3") {
+    alert("Thank you! This will cost $3.");
+}
+else {
+    alert("Invalid choice.");
+}
 
 
 
