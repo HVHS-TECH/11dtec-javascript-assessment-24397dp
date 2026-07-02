@@ -24,7 +24,7 @@ function displayMenu() {
     );
 
     if (pick == "1") {
-        alert("Thank you, " + userName + "! You ordered ham and cheese sandwich.");
+        alert("Thank you, " + userName + "! You ordered ham and cheese sandwich./nThis cost $8.");
     }
     else if (pick == "2") {
         alert("Thank you, " + userName + "! You ordered hot chocolate.");
@@ -55,16 +55,6 @@ else {
 
 
 
-
-
-
-
-
-
-
-
-
-if (pick == "1") { alert("Thank you, " + userName + "!\nYou got a Ham & Cheese Sandwich.\nThis costs $8."); } else if (pick == "2") { alert("Thank you, " + userName + "!\nYou got a Hot Chocolate.\nThis costs $5."); } else if (pick == "3") { alert("Thank you, " + userName + "!\nYou got a Flat White.\nThis costs $3."); } else if (pick == "4") { alert("Thank you, " + userName + "!\nYou got a Chocolate Cookie.\nThis costs $4."); } else { alert("Sorry, that is not a valid choice."); }
 
 
 
