@@ -41,7 +41,7 @@ function displayMenu() {
 }
 
 if (pick == "1") {
-    alert("Thank you! This will cost $8.");
+    alert("Thank you, "+ userName + "!\nYou got a Ham & Cheese Sandwich.\nThis costs $8.");
 }
 else if (pick == "2") {
     alert("Thank you! This will cost $5.");
