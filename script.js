@@ -101,11 +101,12 @@ function showList() {
         for (let i = 0; i < shoppingList.length; i++) {
             OUTPUT.innerHTML += shoppingList[i] + "<br>";
         }
-
-      OUTPUT.innerHTML += "<br><b>Total: $" + total.toFixed(2) + "</b>";
+OUTPUT.innerHTML += "<br><b>Total: $" + total.toFixed(2) + "</b>";
+    }
 }
 
 function clearOrder() {
+ 
     shoppingList = [];
     total = 0;
     OUTPUT.innerHTML = "Your order has been cleared.";
