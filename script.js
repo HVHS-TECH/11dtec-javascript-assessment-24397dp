@@ -91,7 +91,7 @@ function addItem(item, price) {
     OUTPUT.innerHTML += item + " added to your order.<br>";
     
 }
- total += Number (price -8 <p> "ham & cheese Sandwich")
+ 
 function showList() {
     OUTPUT.innerHTML = "<b>Your Order:</b><br>";
 
@@ -102,8 +102,7 @@ function showList() {
             OUTPUT.innerHTML += shoppingList[i] + "<br>";
         }
 
-        OUTPUT.innerHTML += "<br><b>Total: $" + total(2) + "</b>";
-    }
+       OUTPUT.innerHTML += "<br><b>Total: $" + total.toFixed(2) + "</b>";
 }
 
 function clearOrder() {
