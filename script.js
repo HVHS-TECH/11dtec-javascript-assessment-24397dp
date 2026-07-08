@@ -25,16 +25,16 @@ function displayMenu() {
 
 
     if (pick == "1") {
-        alert("Thank you, " + userName + "! You ordered ham and cheese sandwich This cost $8.");
+        alert("Thank you, " + userName + "! You ordered ham and cheese sandwich This cost $8.make sure you add it again in the main menu");
     }
     else if (pick == "2") {
-        alert("Thank you, " + userName + "! You ordered hot chocolate This cost $4.");
+        alert("Thank you, " + userName + "! You ordered hot chocolate This cost $4.make sure you add it again in the main menu");
     }
     else if (pick == "3") {
-        alert("Thank you, " + userName + "! You ordered flat white This cost $4.");
+        alert("Thank you, " + userName + "! You ordered flat white This cost $4.make sure you add it again in the main menu");
     }
     else if (pick == "4") {
-        alert("Thank you, " + userName + "! You ordered chocolate cookie This cost $5.");
+        alert("Thank you, " + userName + "! You ordered chocolate cookie This cost $5.make sure you add it again in the main menu");
     }
     else {
         alert("Sorry, that is not a valid choice.");
