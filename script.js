@@ -131,7 +131,7 @@ function pay() {
         OUTPUT.innerHTML +=
             "<br><br> Payment accepted!" +
             "<br>Your change is $" + change.toFixed(2) +
-            "<br>Thank you for visiting Daily Grid Cafe!";
+            "<br>Thank you for buying from Daily Grid Cafe!";
     } else {
         let needed = total - money;
 
