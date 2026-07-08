@@ -5,7 +5,7 @@
 alert("Welcome to my program!");
 
 var userName = prompt("What is your name?");
-
+var userName = prompt(what is your age")
 displayMenu();
 
 /**************************************
@@ -40,7 +40,7 @@ function displayMenu() {
         alert("Sorry, that is not a valid choice.");
     }
 }
-
+ 
 
 
 
