@@ -25,52 +25,71 @@
     <img src="Weldome to the daily grid.jpg" alt="Daily Grid Cafe" width="300">
 
     <h2>Breakfast and food</h2>
-<p> burger with the fries on it - $12</p> 
-<button onclick="addItem"("burger with the fries on it")">add</button>   
 
+<p>Burger with the fries on it - $12</p>
+<button onclick="addItem('Burger with the fries on it', 12)">Add</button>
 
-    <p> Ham & Cheese Sandwich - $8</p> <img src="ham and cheese sandwich.jpg" alt="ham and cheese sandwich" width="200"
-    <button onclick="addItem('Ham & Cheese Sandwich')">Add</button>
+<p>Ham & Cheese Sandwich - $8</p>
+<img src="ham and cheese sandwich.jpg" alt="Ham & Cheese Sandwich" width="200">
+<button onclick="addItem('Ham & Cheese Sandwich', 8)">Add</button>
 
-    <p>Blue Muffin - $5</p> <img src="blue muffin.jpg" alt="blue Muffin" width="200"
+<p>Blue Muffin - $5</p>
+<img src="blue muffin.jpg" alt="Blue Muffin" width="200">
 <button onclick="addItem('Blue Muffin', 5)">Add</button>
 
-   
-    <p>Chocolate Cookie - $5</p>  <img src="chocloate muffin.jpg" alt="chocolate cookie" width="200">
-    <button onclick="addItem('Chocolate Cookie')">Add</button>
+<p>Chocolate Cookie - $5</p>
+<img src="chocloate muffin.jpg" alt="Chocolate Cookie" width="200">
+<button onclick="addItem('Chocolate Cookie', 5)">Add</button>
 
-    <h2>Drinks</h2>
+<h2>Drinks</h2>
 
-    <p>Cappuccino - $4</p> <img src="ca.jpg" alt="cappuccino" width="200">
-    <button onclick="addItem('Cappuccino')">Add</button>
+<p>Cappuccino - $4</p>
+<img src="ca.jpg" alt="Cappuccino" width="200">
+<button onclick="addItem('Cappuccino', 4)">Add</button>
 
-    <p>Flat White - $4</p> <img src="flat white.jpg" alt="flat white" width="200">
-    <button onclick="addItem('Flat White')">Add</button> 
+<p>Flat White - $4</p>
+<img src="flat white.jpg" alt="Flat White" width="200">
+<button onclick="addItem('Flat White', 4)">Add</button>
 
-    <p>Hot Chocolate - $4</p> <img src="hot chocolate.jpg" alt="hot chocolate" width="200">
-    <button onclick="addItem('Hot Chocolate')">Add</button>
+<p>Hot Chocolate - $4</p>
+<img src="hot chocolate.jpg" alt="Hot Chocolate" width="200">
+<button onclick="addItem('Hot Chocolate', 4)">Add</button>
 
-    <p>Water - $3</p> <img src="this is a glass of water.jpg" alt="water" width="200">
-    <button onclick="addItem('Water')">Add</button>
+<p>Water - $3</p>
+<img src="this is a glass of water.jpg" alt="Water" width="200">
+<button onclick="addItem('Water', 3)">Add</button>
 
-    <p>Orange Juice - $4</p>
+<p>Orange Juice - $4</p>
 <button onclick="addItem('Orange Juice', 4)">Add</button>
-    <p>Strawberry Milkshake - $5</p>
-    <button onclick="addItem('Strawberry Milkshake')">Add</button>
 
-    <br><br>
+<p>Strawberry Milkshake - $5</p>
+<button onclick="addItem('Strawberry Milkshake', 5)">Add</button>
 
-    <button onclick="showList()">Show Order</button>
-    <button onclick="clearOrder()">Clear Order</button>
-    <button onclick="pay()">Pay</button>
+<br><br>
 
-    <br><br>
+<button onclick="showList()">Show Order</button>
+<button onclick="clearOrder()">Clear Order</button>
+<button onclick="pay()">Pay</button>
 
-    <div id="spaceForJavaScriptOutput">
-        Your order will appear here.
-    </div>
+<br><br>
 
-    <script src="script.js"></script>
+<div id="spaceForJavaScriptOutput">
+    Your order will appear here.
+</div>
 
-</body>
-</html>
+<script src="script.js"></script>
+There's one more thing to fix in your script.js
+
+Delete this line completely:
+
+total += Number (price -8 <p> "ham & cheese Sandwich")
+
+And change this line:
+
+OUTPUT.innerHTML += "<br><b>Total: $" + total(2) + "</b>";
+
+to:
+
+OUTPUT.innerHTML += "<br><b>Total: $" + total.toFixed(2) + "</b>";
+
+If you make those changes and it still doesn't work, send me a screenshot of the error or tell me exactly what happens when you click Pay. We'll get it working.
