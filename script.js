@@ -21,6 +21,7 @@ function displayMenu() {
         "2. flat white\n" +
         "3. chocolate cookie\n" +
         "4. hot chocolate"
+        
     );
 
 
