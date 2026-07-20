@@ -45,6 +45,7 @@ function displayMenu() {
     }
 
     "function displayreceipt"
+    
 }
  
 
