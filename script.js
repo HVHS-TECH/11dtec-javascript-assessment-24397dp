@@ -6,6 +6,7 @@ alert("Welcome to my program!");
 
 var userName = prompt("What is your name?");
 var userAge = prompt("what is your age?")
+var usermoney = prompt("how much money do you have")
 displayMenu();
 
 /**************************************
@@ -21,6 +22,7 @@ function displayMenu() {
         "2. flat white\n" +
         "3. chocolate cookie\n" +
         "4. hot chocolate"
+        
 
     );
 
