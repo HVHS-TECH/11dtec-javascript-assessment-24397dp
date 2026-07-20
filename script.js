@@ -43,7 +43,7 @@ function displayMenu() {
         alert("Sorry, that is not a valid choice.");
     }
 
-    "function displayreceipt"
+    "function displayreceipt" 
 
 }
  
