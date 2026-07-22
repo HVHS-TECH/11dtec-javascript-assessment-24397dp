@@ -1,13 +1,13 @@
-/**************************************
+
+    /**************************************
  MAIN CODE
 **************************************/
 
 alert("Welcome to my program!");
 
 var userName = prompt("What is your name?");
-var userAge = prompt("what is your age?")
-var usermoney = prompt("how much money do you have")
-var displayreceipt = prompt (pick == "ham and cheese sandwich")
+var userAge = prompt("What is your age?");
+var userMoney = prompt("How much money do you have?");
 
 displayMenu();
 
@@ -20,41 +20,28 @@ function displayMenu() {
     var pick = prompt(
         "Hello " + userName + "!\n\n" +
         "What do you want today?\n\n" +
-        "1. ham and cheese sandwich\n" +
-        "2. flat white\n" +
-        "3. chocolate cookie\n" +
-        "4. hot chocolate"
-
-
+        "1. Ham and Cheese Sandwich - $8\n" +
+        "2. Flat White - $4\n" +
+        "3. Chocolate Cookie - $4\n" +
+        "4. Hot Chocolate - $5"
     );
 
-
     if (pick == "1") {
-        alert("Thank you, " + userName + "! You ordered ham and cheese sandwich This cost $8.make sure you add it again in the main menu");
+        alert("Thank you, " + userName + "!\nYou got a Ham and Cheese Sandwich.\nThis costs $8.");
     }
     else if (pick == "2") {
-        alert("Thank you, " + userName + "! You ordered flat white This cost $4.make sure you add it again in the main menu");
+        alert("Thank you, " + userName + "!\nYou got a Flat White.\nThis costs $4.");
     }
     else if (pick == "3") {
-        alert("Thank you, " + userName + "! You ordered chocolate cookie This cost $4.make sure you add it again in the main menu");
+        alert("Thank you, " + userName + "!\nYou got a Chocolate Cookie.\nThis costs $4.");
     }
     else if (pick == "4") {
-        alert("Thank you, " + userName + "! You ordered hot chocolate This cost $5.make sure you add it again in the main menu");
+        alert("Thank you, " + userName + "!\nYou got a Hot Chocolate.\nThis costs $5.");
     }
     else {
         alert("Sorry, that is not a valid choice.");
     }
-displayMenu() }
-    function displayreceipt() {
-        if (pick == "ham and cheese sandwich") {
-            alert("This will cost $8, " + userName)
-        }
-
-
-    }
-
-
-
+}
 
 
 
