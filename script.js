@@ -49,7 +49,7 @@ function displayMenu() {
 displayMenu() }
     function displayreceipt() {
         if (pick == "ham and cheese sandwich") {
-            alert("This will cost $8, " + userName + "how much money");
+            alert("This will cost $8, " + userName)
         }
 
 
