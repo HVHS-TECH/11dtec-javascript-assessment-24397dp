@@ -44,8 +44,8 @@ function displayMenu() {
     }
 
     function displayreceipt () { 
-        if (pick == "1") {
-        alert("This will cost $8, " + userName + "! You ordered ham and cheese sandwich This cost $8.make sure you add it again in the main menu");
+        if (pick == "ham and cheese sandwich") {
+        alert("This will cost $8, " + userName + "how much money");
     }
 
 
