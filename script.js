@@ -9,7 +9,7 @@ var userName = prompt("What is your name?");
 var userAge = prompt("What is your age?");
 var userMoney = prompt("How much money do you have?");
 
-displayMenu();
+displayMenu();   
 
 /**************************************
  FUNCTIONS
