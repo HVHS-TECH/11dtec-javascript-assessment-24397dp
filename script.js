@@ -42,7 +42,7 @@ function displayMenu() {
     else {
         alert("Sorry, that is not a valid choice.");
     }
-
+displayMenu() }
     function displayreceipt() {
         if (pick == "ham and cheese sandwich") {
             alert("This will cost $8, " + userName + "how much money");
