@@ -7,6 +7,10 @@ alert("Welcome to my program!");
 var userName = prompt("What is your name?");
 var userAge = prompt("what is your age?")
 var usermoney = prompt("how much money do you have")
+var displayreceipt = prompt (pick == "ham and cheese sandwich") {
+            alert("This will cost $8," + userName + "how much money");
+}
+
 displayMenu();
 
 /**************************************
